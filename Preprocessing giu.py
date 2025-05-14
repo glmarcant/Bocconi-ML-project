@@ -36,7 +36,7 @@ X = X.drop(columns=features_to_drop)
 # IRRELEVANT FEATURES
 # Drop features that are not relevant for the model
 irrelevant_features = [
-    'Unnamed: 0', 'id', 'short_name', 'long_name', 'dob', 'nationality_id', 'club_jersey_number', 'club_team_id'
+    'Unnamed: 0', 'id'78, 'short_name', 'long_name', 'dob', 'nationality_id', 'club_jersey_number', 'club_team_id'
 ]
 
 # Drop the manually specified features
